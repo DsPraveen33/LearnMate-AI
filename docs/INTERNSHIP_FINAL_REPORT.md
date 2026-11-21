@@ -8,6 +8,7 @@
 * **Internship Track:** AICTE–IBM SkillsBuild Artificial Intelligence & Cloud Application Development (2026 Cohort)
 * **Author / Intern:** Praveen D (DsPraveen33)
 * **Project Directory:** `C:\workspace\LearnMate AI`
+* **Live Web App (Vercel):** [https://learnmate-ai-frontend-iota.vercel.app](https://learnmate-ai-frontend-iota.vercel.app)
 * **Version Control Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)
 * **Application Status:** Feature-Frozen, Production-Ready, 100% Quality Assurance Passed
 

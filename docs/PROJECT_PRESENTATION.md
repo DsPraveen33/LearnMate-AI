@@ -169,7 +169,8 @@ flowchart TD
   * Successfully integrated IBM watsonx.ai Granite 3.0 with bounded educational guardrails.
   * Established 100% automated test coverage and feature-frozen stability.
 * **Project Artifacts:**
-  * **GitHub Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)
+  * **Live Web App (Vercel):** [https://learnmate-ai-frontend-iota.vercel.app](https://learnmate-ai-frontend-iota.vercel.app)
+* **GitHub Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)
   * **Interactive API Docs:** `http://127.0.0.1:8000/docs`
   * **Live Frontend:** `http://127.0.0.1:5174` (Ready for Vercel/Render deployment)
 * **Future Roadmap:**

@@ -4,6 +4,8 @@
 > **Domain:** Artificial Intelligence & Cloud Computing  
 > **Project Category:** Agentic AI & Intelligent Tutoring Systems  
 > **Status:** Completed & Feature-Frozen for Final Evaluation  
+> **Live Web App (Vercel):** [https://learnmate-ai-frontend-iota.vercel.app](https://learnmate-ai-frontend-iota.vercel.app)  
+> **GitHub Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)  
 
 ---
 
