@@ -9,6 +9,8 @@
 * **Author / Intern:** Praveen D (DsPraveen33)
 * **Project Directory:** `C:\workspace\LearnMate AI`
 * **Live Web App (Vercel):** [https://learnmate-ai-frontend-iota.vercel.app](https://learnmate-ai-frontend-iota.vercel.app)
+* **Live Backend API (Render):** [https://learnmate-ai-95f7.onrender.com](https://learnmate-ai-95f7.onrender.com)
+* **Interactive Swagger Docs:** [https://learnmate-ai-95f7.onrender.com/docs](https://learnmate-ai-95f7.onrender.com/docs)
 * **Version Control Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)
 * **Application Status:** Feature-Frozen, Production-Ready, 100% Quality Assurance Passed
 

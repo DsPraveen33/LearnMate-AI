@@ -31,7 +31,11 @@ export interface RoadmapDraft {
   }[];
 }
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  (import.meta.env.PROD
+    ? 'https://learnmate-ai-95f7.onrender.com'
+    : 'http://127.0.0.1:8000');
 
 class ApiError extends Error {
   status: number;

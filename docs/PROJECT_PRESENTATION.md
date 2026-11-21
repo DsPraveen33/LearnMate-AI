@@ -170,6 +170,8 @@ flowchart TD
   * Established 100% automated test coverage and feature-frozen stability.
 * **Project Artifacts:**
   * **Live Web App (Vercel):** [https://learnmate-ai-frontend-iota.vercel.app](https://learnmate-ai-frontend-iota.vercel.app)
+* **Live Backend API (Render):** [https://learnmate-ai-95f7.onrender.com](https://learnmate-ai-95f7.onrender.com)
+* **Live Swagger Docs:** [https://learnmate-ai-95f7.onrender.com/docs](https://learnmate-ai-95f7.onrender.com/docs)
 * **GitHub Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)
   * **Interactive API Docs:** `http://127.0.0.1:8000/docs`
   * **Live Frontend:** `http://127.0.0.1:5174` (Ready for Vercel/Render deployment)

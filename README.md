@@ -5,6 +5,8 @@
 > **Project Category:** Agentic AI & Intelligent Tutoring Systems  
 > **Status:** Completed & Feature-Frozen for Final Evaluation  
 > **Live Web App (Vercel):** [https://learnmate-ai-frontend-iota.vercel.app](https://learnmate-ai-frontend-iota.vercel.app)  
+> **Live Backend API (Render):** [https://learnmate-ai-95f7.onrender.com](https://learnmate-ai-95f7.onrender.com)  
+> **Interactive Swagger Docs:** [https://learnmate-ai-95f7.onrender.com/docs](https://learnmate-ai-95f7.onrender.com/docs)  
 > **GitHub Repository:** [https://github.com/DsPraveen33/LearnMate-AI](https://github.com/DsPraveen33/LearnMate-AI)  
 
 ---
