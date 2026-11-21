@@ -99,13 +99,24 @@ class WatsonxService:
 
 @lru_cache(maxsize=1)
 def get_watsonx_service() -> WatsonxService:
-    config = dotenv_values(Path(__file__).resolve().parents[2] / ".env", interpolate=False)
-    model = (config.get("WATSONX_MODEL_ID") or "granite-4-h-small").strip()
+    env_path = Path(__file__).resolve().parents[2] / ".env"
+    config = dotenv_values(env_path, interpolate=False) if env_path.is_file() else {}
+
+    def _get(key: str, default: str = "") -> str:
+        val = config.get(key)
+        if not val:
+            val = os.environ.get(key, default)
+        return str(val or default).strip()
+
+    model = _get("WATSONX_MODEL_ID", "granite-4-h-small")
     if model == "granite-4-h-small":
         model = "ibm/granite-4-h-small"
+    api_key = _get("WATSONX_API_KEY") or _get("WATSONX_APIKEY")
+    project_id = _get("WATSONX_PROJECT_ID", "18877ee5-cf51-4a43-88f4-6c4625c674ab")
+    endpoint = _get("WATSONX_URL", _DALLAS_URL).rstrip("/")
     return WatsonxService(
-        (config.get("WATSONX_API_KEY") or "").strip(),
-        (config.get("WATSONX_PROJECT_ID") or "18877ee5-cf51-4a43-88f4-6c4625c674ab").strip(),
-        (config.get("WATSONX_URL") or _DALLAS_URL).strip().rstrip("/"),
+        api_key,
+        project_id,
+        endpoint,
         model,
     )

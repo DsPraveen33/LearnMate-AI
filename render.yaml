@@ -12,7 +12,7 @@ services:
         value: 3.11.9
       - key: WATSONX_URL
         value: https://us-south.ml.cloud.ibm.com
-      - key: WATSONX_APIKEY
+      - key: WATSONX_API_KEY
         sync: false
       - key: WATSONX_PROJECT_ID
         sync: false
